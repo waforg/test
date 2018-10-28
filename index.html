@@ -26,19 +26,17 @@
                     <a class="navbar-brand" style="font-size:1.5rem" href="">EOS Game World</a>
                     <div class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Settings
+                            设置
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li style="padding-left: 5px;padding-right: 5px"><a href="#" id="log-btn">Login With Scatter</a></li>
+                            <li style="padding-left: 5px;padding-right: 5px"><a href="#" id="log-btn">登录 Scatter</a></li>
                             <li style="padding-left: 5px;padding-right: 5px">
-                                <a href="https://eosflare.io/account/gameworldcom" target="_blank">Contract Address</a>
+                                <a href="https://eosflare.io/account/gameworldcom" target="_blank">合约地址</a>
                             </li>
+
                             <li style="padding-left: 5px;padding-right: 5px">
-                                <a href="https://github.com/gameworldeos/eosgameworld" target="_blank">Source Code</a>
-                            </li>
-                            <li style="padding-left: 5px;padding-right: 5px">
-                                <a href="http://hi.dapp.pub" target="_blank">Discord Channel</a>
+                                <a href="http://" target="_blank">联系我们</a>
                             </li>
                         </ul>
                     </div>
@@ -58,54 +56,19 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Rules</h5>
+                <h5 class="modal-title" id="exampleModalLabel">游戏规则</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p style="font-weight: bold;color: #e6ae49">
-                    Life is like a box of EOS and you don't know how much you will get in return. Mind your own risk and enjoy the game!
+                    生活就像一盒EOS，你不知道你会得到多少回报。注意自己的风险，享受游戏！
+                </p>
+                <p style="font-weight: bold;color: #e6ae49">
+                    游戏规则介绍
                 </p>
 
-                <h5>Dividend rules:</h5>
-                <p>If you choose the red team to buy keys, 60% of your sent EOS will be given to the current key holders immediately, and another 30% will be kept in the active pot until the countdown becomes 0.</p>
-                <p>If you choose the blue team  to buy keys, 30% of your sent EOS will be given to the current key holders immediately, and another 60% will be kept in the active pot until the countdown becomes 0.</p>
-
-                <h5>Active pot distribution:</h5>
-                <p>Each round officially ends when the countdown clock reaches zero. The last player who have purchased a key before the timer reaches zero becomes the winner. The last team selected by the winner before the timer runs out becomes the winning team.</p>
-                <p>If the red team wins, 60% of the active pot will be given directly to this last lucky player, and 30% of the active pot will be divided among the red team key holders.</p>
-                <p>If the blue team wins, 30% of the active pot will be given diretly to this last lucky player, and 60% of the active pot will be divided among the blue team key holders.</p>
-
-                <h5>Referral bonus:</h5>
-                <p>An earlier play will earn 8% of all the EOS put into the game by anyone that joins through his link</p>
-                <p>as referral bonus. If someone tries to cheat by visiting his own referral, he won't get the bonus as his account is not an earlier player yet. If this earlier player hasn't bought any key yet, he won't get the referral bonus either.</p>
-
-                <h5>Entrance threshold:</h5>
-                <p>In the 2nd round, there's one big update that you're expected to see a growing entrance threshold as time goes by.</p>
-                <p>Each time you must buy more than 100 keys at least. When the total sold key amount reaches 1 million, the entrance threshold will raise to 1/10000 of the total sold keys going forward. It's designed to improve the bot cost and lower the bot advantage during the final pot competing process.</p>
-
-                <h5>Frequently asked questions:</h5>
-                <p style="font-weight: bold;color: #f000f0">Q: How could we win over bots during the final pot competing process?</p>
-                <p>A: In the 2nd round, there's one big update that you're expected to see a growing entrance threshold as time goes by.
-                    Each time you must buy more than 100 keys at least.</p>
-                <p>After 1 million keys are sold out, the entrance threshold will raise to 1/10000 of the total sold keys going forward. It's designed to improve the bot cost and lower the bot advantage during the final pot competing process.</p>
-
-                <p style="font-weight: bold;color: #f000f0">Q: Could the team win the active pot by cheating?</p>
-                <p>A: The game behavior is fully controlled by the contract code and the EOS main network. Nobody could decide who/which team or when this lucky player could win the active pot.</p>
-
-                <p style="font-weight: bold;color: #f000f0">Q: Did the team swap the contract sneakingly during the game?</p>
-                <p>A: We only update and re-deploy the contract code when the previous round is over.</p>
-
-                <p style="font-weight: bold;color: #f000f0">Q: Could I use my own referral link to play?</p>
-                <p>A: An earlier play will earn 8% of all the EOS put into the game by anyone that joins through his link</p>
-                <p>as referral bonus. If someone tries to cheat by visiting his own referral, he won't get the bonus as his account is not an earlier player yet. If this earlier player hasn't bought any key yet, he won't get the referral bonus either.</p>
-
-                <p style="font-weight: bold;color: #f000f0">Q: Why do I sometimes see the wrong countdown time?</p>
-                <p>A: Your browser will show the correct remaining time wherever your timezone is. But the remaining time could go wrong if you encounter a network glitch which could be resolved by refreshing again.</p>
-
-                <p style="font-weight: bold;color: #f000f0">Q: Why do I sometimes find that the dividend stops growing?</p>
-                <p>A: Sometimes the new dividend isn't large enough to be updated on the front page due to the data precision limitation which has been fixed already. All dividends are always added to your balance correctly by the contract and could be withdrawn at any time. Any more questions, you are welcome to check the contract code directly in our github repo.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -126,14 +89,13 @@
                 </button>
             </div>
             <div class="modal-body">
+                <p>第二轮比赛已经结束了， 我们即将发布第三轮ASAP比赛。</p>
+                <p>我们正在更新合约，并更新到所有节点</p>
 
-                <p>The 2nd round is over now. We will start the 3rd round ASAP with an official announcement posted in advance.</p>
-                <p>Right now, we're working on updating the contract and trying our best to eliminate the bots.</p>
-
-                <p>Welcom to join our Discord to be updated:</p>
-                <p>
-                    <a href="http://hi.dapp.pub" target="_blank" style="color: blue">http://hi.dapp.pub</a>
-                </p>
+                <!--<p>Welcom to join our Discord to be updated:</p>-->
+                <!--<p>-->
+                    <!--<a href="http://hi.dapp.pub" target="_blank" style="color: blue">http://hi.dapp.pub</a>-->
+                <!--</p>-->
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -147,33 +109,33 @@
     <div class="jumbotron rounded-0 text-center text-light teaser-cover">
         <div class="container" id="startedContainer">
             <h4 class="display-4 scammed" style="font-style: italic;" id="current-user"> someone else is</h4>
-            <h1 class="display-1 scammed">EXIT Game</h1>
+            <h1 class="display-1 scammed">当前奖池</h1>
             <h2 class="display-3">
-                <span class="ethglitch titleglow pot">loading...</span>
-                <span class="headtimer" id="headtimer">loading...</span>
+                <span class="ethglitch titleglow pot">加载中...</span>
+                <span class="headtimer" id="headtimer">加载中...</span>
             </h2>
             <br>
             <a href="javascript:void(0)" class="buyOneTicket btn btn-lg btn-block btn-purp pulse marginb">
                 <div class="row">
                     <div class="col-sm-11">
-                        This is just a game, don't spend too much eos !
+                        这只是一场游戏， 不要花费太多的EOS !
                     </div>
                 </div>
             </a>
         </div>
         <div class="container" id="toStartContainer" style="display: none">
-            <h4 class="display-4 scammed" style="font-style: italic;">The 2nd round will be started in</h4>
+            <h4 class="display-4 scammed" style="font-style: italic;">第二局即将开始</h4>
             <h2 class="display-3">
                 <span class="ethglitch titleglow" id="headtimer2">loading...</span>
             </h2>
             <h2>
-                <span id="headtimer3">loading...</span>
+                <span id="headtimer3">正在加载...</span>
             </h2>
             <br>
             <a href="javascript:void(0)" class="buyOneTicket btn btn-lg btn-block btn-purp pulse marginb">
                 <div class="row">
                     <div class="col-sm-11">
-                        This is just a game, don't spend too much eos !
+                        理性游戏，合理控制EOS花销
                     </div>
                 </div>
             </a>
@@ -181,7 +143,7 @@
 
         <div class="container scatter" style="display: none">
             <h2>
-                <a href="https://get-scatter.com/" target="_blank">To Install Scatter</a>
+                <a href="https://get-scatter.com/" target="_blank">安装 Scatter</a>
             </h2>
             <br>
         </div>
@@ -191,13 +153,13 @@
             <div class="col-sm">
                 <ul class="nav nav-tabs tabs-border-adjust" id="buyTabs" role="tablist">
                     <li class="nav-item tab-item">
-                        <a class="nav-link tab-link active" id="purchaseTab" data-toggle="tab" href="#purchaseArea" role="tab" aria-controls="purchaseArea" aria-selected="true">Purchase</a>
+                        <a class="nav-link tab-link active" id="purchaseTab" data-toggle="tab" href="#purchaseArea" role="tab" aria-controls="purchaseArea" aria-selected="true">购买</a>
                     </li>
                     <li class="nav-item tab-item">
-                        <a class="nav-link tab-link" id="vaultTab" data-toggle="tab" href="#vaultArea" role="tab" aria-controls="vaultArea" aria-selected="false">Vault</a>
+                        <a class="nav-link tab-link" id="vaultTab" data-toggle="tab" href="#vaultArea" role="tab" aria-controls="vaultArea" aria-selected="false">小金库</a>
                     </li>
                     <li class="nav-item tab-item">
-                        <a class="nav-link tab-link" id="inviteTab" data-toggle="tab" href="#inviteArea" role="tab" aria-controls="inviteArea" aria-selected="false">Invite Url</a>
+                        <a class="nav-link tab-link" id="inviteTab" data-toggle="tab" href="#inviteArea" role="tab" aria-controls="inviteArea" aria-selected="false">邀请</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="buyArea">
@@ -205,7 +167,7 @@
                         <div class="jumbotron jumbotron-adjust text-light bg-dark jumboshade tab-rounded">
                             <div class="row">
                                 <div class="col">
-                                    <p class="lead nomarginb">Keyring</p>
+                                    <p class="lead nomarginb">秘钥</p>
                                 </div>
                             </div>
                             <hr>
@@ -222,7 +184,7 @@
                                                     </div>
                                                     <input type="text" class="form-control text-center" value="100" id="keysToBuy">
                                                     <div class="input-group-append">
-                                                        <span class="input-group-text" id="current-money">loading...</span>
+                                                        <span class="input-group-text" id="current-money">正在加载...</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -240,7 +202,7 @@
                                         </div>
                                         <div class="row" style="position: relative;">
                                             <div class="col">
-                                                <button type="button" id="tixBuy" class="btn btn-block btn-purp btn-lg ticketProcess">Send EOS</button>
+                                                <button type="button" id="tixBuy" class="btn btn-block btn-purp btn-lg ticketProcess">押注</button>
                                             </div>
                                         </div>
                                     </div>
@@ -249,7 +211,7 @@
                             <hr>
                             <div class="row marginb">
                                 <div class="col">
-                                    <p class="lead nomarginb" id="selectedTeam">Please choose a team !</p>
+                                    <p class="lead nomarginb" id="selectedTeam">请选择一个队伍 !</p>
                                 </div>
                             </div>
                             <div class="row marginb distribution">
@@ -301,7 +263,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <p class="lead">Bad Advice</p>
+                                        <p class="lead">推荐奖励</p>
                                     </div>
                                     <div class="col">
                                         <p class="h3 text-right" id="advice">0.0000 EOS</p>
@@ -310,7 +272,7 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col">
-                                        <p class="lead">Total Gains</p>
+                                        <p class="lead">所获奖励总额</p>
                                     </div>
                                     <div class="col">
                                         <p class="h3 text-right glow gains">0.0000 EOS</p>
@@ -351,17 +313,17 @@
                 <ul class="nav nav-tabs tabs-border-adjust" id="statTabs" role="tablist">
                     <li class="nav-item tab-item">
                         <a class="nav-link tab-link active" id="potTab" data-toggle="tab" href="#potArea" role="tab" aria-controls="potArea" aria-selected="true">
-                            Round
+                            本轮游戏
                         </a>
                     </li>
                     <li class="nav-item tab-item">
                         <a class="nav-link tab-link" id="teamTab" data-toggle="tab" href="#teamArea" role="tab" aria-controls="teamArea" aria-selected="false">
-                            Teams
+                            队伍
                         </a>
                     </li>
                     <li class="nav-item tab-item">
                         <a class="nav-link tab-link" id="statsTab" data-toggle="tab" href="#statsArea" role="tab" aria-controls="statsArea" aria-selected="false">
-                            Stats
+                            统计
                         </a>
                     </li>
                 </ul>
@@ -370,8 +332,8 @@
                         <div class="jumbotron jumbotron-adjust text-light bg-dark jumboshade tab-rounded">
                             <div class="row nomarginb margin-top">
                                 <div class="col">
-                                    <p class="h2 text-center" >Contract will drain in <br>
-                                        <span class="glow boxtimer" id="boxtimer">loading...</span>
+                                    <p class="h2 text-center" >本轮剩余时间<br>
+                                        <span class="glow boxtimer" id="boxtimer">截止时间加载中...</span>
                                     </p>
                                 </div>
                             </div>
@@ -385,18 +347,18 @@
                             <div class="jumbotron jumbotron-adjust teamscore">
                                 <div class="row nomarginb">
                                     <div class="col-auto">
-                                        <p class="h4">Active Pot</p>
+                                        <p class="h4">奖池</p>
                                     </div>
                                     <div class="col">
-                                        <p class="h2 text-right glow ethglitch pot">loading...</p>
+                                        <p class="h2 text-right glow ethglitch pot">加载中...</p>
                                     </div>
                                 </div>
                                 <div class="row marginb">
-                                    <div class="col text-right" id="pot-usdt">loading...</div>
+                                    <div class="col text-right" id="pot-usdt">加载中...</div>
                                 </div>
                                 <div class="row nomarginb">
                                     <div class="col">
-                                        <p class="h4">Your Keys</p>
+                                        <p class="h4">你拥有的key</p>
                                     </div>
                                     <div class="col">
                                         <p class="h2 text-right" id="your-keys">0.00 </p>
@@ -407,7 +369,7 @@
                                 </div>
                                 <div class="row nomarginb">
                                     <div class="col">
-                                        <p class="h4">Your Cost</p>
+                                        <p class="h4">你消费了</p>
                                     </div>
                                     <div class="col">
                                         <p class="h2 text-right" id="cost">0.0000 EOS</p>
@@ -415,7 +377,7 @@
                                 </div>
                                 <div class="row nomarginb">
                                     <div class="col">
-                                        <p class="h4">Your Earnings</p>
+                                        <p class="h4">你赚了</p>
                                     </div>
                                     <div class="col">
                                         <p class="h2 text-right gains">0.0000 EOS</p>
@@ -459,7 +421,7 @@
                             <div class="jumbotron jumbotron-adjust teamscore">
                                 <div class="row nomarginb">
                                     <div class="col-auto">
-                                        <p class="h4">Total Invested:</p>
+                                        <p class="h4">您总共花费了:</p>
                                     </div>
                                     <div class="col">
                                         <p class="h2 text-right glow ethglitch" id="invested-eos">
@@ -472,7 +434,7 @@
                                 </div>
                                 <div class="row nomarginb">
                                     <div class="col-auto">
-                                        <p class="h4">Distributed Rewards:</p>
+                                        <p class="h4">已分配奖金:</p>
                                     </div>
                                     <div class="col">
                                         <p class="h2 text-right glow ethglitch" id="rewards">loading...</p>
@@ -508,593 +470,7 @@ color: #e6ae49;
 <script src="js/mDialogMin.js"></script>
 <script src="https://cdn.bootcss.com/bignumber.js/7.2.1/bignumber.min.js"></script>
 
-<script>
-Date.prototype.Format = function (fmt) { //author: meizz
-    var o = {
-        "M+": this.getMonth() + 1, //月份
-        "d+": this.getDate(), //日
-        "h+": this.getHours(), //小时
-        "m+": this.getMinutes(), //分
-        "s+": this.getSeconds(), //秒
-        "q+": Math.floor((this.getMonth() + 3) / 3), //季度
-        "S": this.getMilliseconds() //毫秒
-    };
-    if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
-    for (var k in o)
-        if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
-    return fmt;
-}
-
-$(function(){
-
-    $('#notice').modal('show');
-
-    var isTP = tp.isConnected();
-    tpAccount = null
-
-    if (isTP) {
-        $('.dropdown').hide();
-        $('#divselect').show()
-
-        $("#divselect em").click(function(){ 
-            var ul = $("#divselect ul"); 
-            if(ul.css("display")=="none"){ 
-                ul.slideDown("fast"); 
-            }else{ 
-                ul.slideUp("fast"); 
-            } 
-        }); 
-        $("#divselect ul").on('click', 'li', function(){ 
-            var txt = $(this).text(); 
-            $("#divselect em").html(txt); 
-    
-            $("#divselect ul").hide(); 
-            tpAccount = txt;
-        }); 
-
-        var mySelect = $('.account-ul');
-        tp.getWalletList('eos').then(function (data) {
-            if (data.wallets && data.wallets['eos']) {
-                var walletList = data.wallets['eos'];
-                for(var i = 0; i < walletList.length; i++) {
-                    var accountName = walletList[i].name;
-                    mySelect.append('<li>' + accountName + '</li>')
-                }
-            }
-        })
-    }
-
-    
-
-    scatter = null;
-    seletedTeam = null;
-    money = null;
-    eosPrice = null;
-    endTime = null;
-    roundMask = null;
-    roundRedMask = null;
-    roundKey = null;
-    isEnded = false;
-    isStarted = false;
-    isEnded = false;
-    roundBlueMask = null;
-    startTime = null;
-    endTime = null;
-    base = 1000000;
-
-    protocol = 'https';
-    host = 'api1.eosasia.one';
-    port = 443;
-    chainId = "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906";
-
-    network = {
-        protocol: protocol,
-        host: host,
-        port: port,
-        blockchain: 'eos',
-        chainId: chainId
-    };
-
-    api = Eos({
-        httpEndpoint: protocol + "://" + host + ":" + port,
-        chainId: chainId
-    });
-    console.log(protocol + "://" + host + ":" + port)
-
-    document.addEventListener('scatterLoaded', function(scatterExtension) {
-        scatter = window.scatter;
-        eos = scatter.eos(network, Eos, {}, "https");
-    });
-
-    setTimeout(function (){
-        if (!localStorage.getItem('account') && !scatter && !isTP) {
-            Dialog.init("Please install Scatter!");
-            return;
-        }
-    }, 3000);
-
-    if (localStorage.getItem('account')) {
-        $("#log-btn").html("Logout");
-    } else {
-        $("#log-btn").html("Login With Scatter");
-        $(".scatter").show();
-    }
-
-    function getUrlParam(name) {
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-        var r = window.location.search.substr(1).match(reg);
-        if (r != null) return unescape(r[2]);
-        return null;
-    }
-
-    ref = getUrlParam("ref");
-    if (ref && ref.length <= 12) {
-        ref = ref
-    } else {
-        ref = '';
-    }
-
-    function fetchEosPrice() {
-        if (isTP) {
-            $.get('https://api.coinmarketcap.com/v2/ticker/1765/').then(function (res) {
-                if (res.data) {
-                    eosPrice = res.data.quotes.USD.price.toFixed(4);
-                }
-            });
-        }
-        else {
-            $.get('https://api.huobi.pro/market/detail?symbol=eosusdt', function (data) {
-                data = JSON.parse(data);
-                eosPrice = data.tick.close;
-            })
-        }
-
-        
-    }
-    fetchEosPrice();
-
-    $("#redTeam").click(function () {
-        seletedTeam = "red";
-        $("#selectedTeam").html("You have chosen the Red Team !");
-    });
-    $("#blueTeam").click(function () {
-        seletedTeam = "blue";
-        $("#selectedTeam").html("You have chosen the Blue Team !");
-    });
-
-    seletedTeam = "red";
-    $("#selectedTeam").html("You have chosen the Red Team !");
-
-    function addKeys(val) {
-        if (!isStarted) {
-            Dialog.init("The round has not been started!");
-            return
-        }
-
-        if (isEnded) {
-            Dialog.init("The round has been ended!");
-            return
-        }
-
-
-        if (!roundKey) {
-            Dialog.init("fail to get roundKey");
-            return;
-        }
-        var oldVal = $("#keysToBuy").val();
-        oldVal = parseInt(oldVal);
-        var newVal = oldVal+val;
-        $("#keysToBuy").val(newVal);
-        money = calMoney(newVal, roundKey);
-        $("#current-money").html("@ "+money+" EOS");
-    }
-
-    $("#btnAdd1").click(function () {
-        addKeys(100);
-    });
-    $("#btnAdd2").click(function () {
-        addKeys(200);
-    });
-    $("#btnAdd5").click(function () {
-        addKeys(500);
-    });
-    $("#btnAdd10").click(function () {
-        addKeys(1000);
-    });
-    $("#btnAdd100").click(function () {
-        addKeys(10000);
-    });
-
-    $("#tixBuy").click(function () {
-        if (!localStorage.getItem('account') && !scatter && !isTP) {
-            Dialog.init("Please install Scatter!");
-            return;
-        }
-
-        if (isTP && !tpAccount) {
-            Dialog.init('please select an EOS Account');
-            return;
-        }
-
-
-        if (!isStarted) {
-            Dialog.init("The round has not been started!");
-            return
-        }
-
-        if (isEnded) {
-            Dialog.init('The round is ended.Please wait the next round!');
-            return
-        }
-
-        if (!seletedTeam) {
-            Dialog.init('Please choose a team!');
-            return
-        }
-
-        if (isNaN(money)) {
-            Dialog.init('Please input number!');
-            return
-        }
-
-        var minKeys = Math.floor(roundKey / 10000);
-        if (minKeys < 100) {
-            minKeys = 100
-        }
-
-        if ($("#keysToBuy").val() < minKeys) {
-            Dialog.init('at least ' + minKeys + ' keys!');
-            $("#keysToBuy").val(minKeys)
-            return
-        }
-
-        if (isTP) {
-            var memo = seletedTeam + '-' + ref;
-            tp.eosTokenTransfer({
-                from: tpAccount,
-                to: 'gameworldcom',
-                amount: money.toFixed(4),
-                tokenName: 'EOS',
-                precision: 4,
-                contract: 'eosio.token',
-                memo: seletedTeam + '-' + ref
-            }).then(function(data){
-                Dialog.init('Success!');
-            }).catch(function (err) {
-                Dialog.init(JSON.stringify(err));
-            });
-        }   
-        else {
-            scatter.getIdentity({accounts: [network]}).then(function (identity) {
-            var account = identity.accounts[0];
-            var options = {
-                authorization: account.name + '@' + account.authority,
-                broadcast: true,
-                sign: true
-            };
-            var memo = seletedTeam + '-' + ref;
-            eos.transfer(account.name, 'gameworldcom',money.toFixed(4)+' EOS', memo, options).then(function(tx) {
-                Dialog.init("Success!");
-            }).catch(function (e) {
-                e = JSON.parse(e);
-                Dialog.init('Tx failed: '+e.error.details[0].message);
-            })
-            doLoginSuccess(identity);
-            })
-        }
-    });
-
-    $("#log-btn").click(function () {
-        if (!localStorage.getItem('account') && !scatter) {
-            Dialog.init("Please install Scatter!");
-            return;
-        }
-
-        if ($(this).html() == "Logout") {
-            scatter.forgetIdentity().then(function() {
-                doLogoutSuccess();
-            });
-        } else {
-            localStorage.removeItem('account');
-            scatter.getIdentity({accounts: [network]}).then(function (identity) {
-                doLoginSuccess(identity);
-            }).catch(function (e) {
-                console.log(e);
-
-            });
-        }
-    });
-
-    $("#withdrawEarnings").click(function () {
-        if (!localStorage.getItem('account') && !scatter && !isTP) {
-            Dialog.init("Please install Scatter!");
-            return;
-        }
-
-        if (isTP) {
-            if (!tpAccount) {
-                Dialog.init("please select an EOS Account");
-                return;
-            }
-            else {
-                var actions = {
-                    actions: [
-                        {
-                        account: "gameworldcom",
-                        name: "withdraw",
-                        authorization: [
-                            {
-                            actor: tpAccount,
-                            permission: "active"
-                            }
-                        ],
-                        data: {
-                            to: tpAccount
-                        }
-                        }
-                    ]
-                };
-                tp.pushEosAction(actions).then(function (data) {
-                    Dialog.init('Success!');
-                }).catch(function (err) {
-                    Dialog.init(JSON.stringify(err));
-                });
-            }
-        }
-        else {
-            scatter.getIdentity({accounts: [network]}).then(function (identity) {
-                var account = doLoginSuccess(identity);
-                var options = {
-                    authorization: account.name + '@' + account.authority,
-                    broadcast: true,
-                    sign: true
-                };
-
-                eos.contract('gameworldcom', options).then(function(gameworldcom) {
-                    gameworldcom.withdraw(account.name, options).then(function (tx) {
-                        Dialog.init('Success!');
-                    }).catch(function (e) {
-                        e = JSON.parse(e);
-                        Dialog.init('Tx failed: '+e.error.details[0].message);
-                    });
-                })
-
-            })
-        }
-
-    });
-
-    function calMoney(keysToBuy, currentKeys) {
-        function getEos(key) {
-            var val = new BigNumber(key);
-            val = val.plus(479999);
-            val = val.pow(2).minus(new BigNumber("230399520000")).dividedToIntegerBy("1280000");
-            return val.toString();
-        }
-        var _  = getEos(new BigNumber(currentKeys).plus(keysToBuy))-getEos(currentKeys);
-        return Math.floor(_*1.05)/10000;
-    }
-
-    function fetchRound() {
-        api.getTableRows(true, "gameworldcom", "gameworldcom", "round").then(function (data) {
-            if (data.rows.length == 0) {
-                money = calMoney($("#keysToBuy").val(), 0);
-                $("#current-money").html("@ "+money+" EOS");
-//                Dialog.init("The game is not started!")
-                return
-            }
-
-            var row = data.rows[0];
-            startTime = convertToLocalTime(row.start);
-
-            $('#startAt').html(startTime.Format('MM-dd hh:mm:ss'));
-
-            endTime = convertToLocalTime(row.end);
-            isEnded = row.ended == 1;
-
-            if(isEnded) {
-                $("#headtimer").html("Over! Please wait the next round!");
-                $("#boxtimer").html("Over! Please wait the next round!");
-            }
-
-            isStarted = new Date().getTime() > startTime.getTime();
-
-            roundKey = row.key / 100;
-
-            money = calMoney($("#keysToBuy").val(), roundKey)
-
-            roundMask = row.mask;
-            roundRedMask = row.redmask;
-            roundBlueMask = row.bluemask;
-
-            $(".pot").html(row.pot/10000 + " EOS");
-            if (eosPrice) {
-                $("#pot-usdt").html("≙ "+ Math.floor(row.pot/10000*eosPrice*100)/100 +" USDT");
-            }
-
-            $("#total-keys").html("Total "+roundKey+" Keys");
-
-            $("#current-money").html("@ "+money+" EOS");
-
-            $("#current-user").html(row.player + " is");
-            $("#red-eos").html(row.red/100+" KEY");
-            $("#blue-eos").html(row.blue/100+" KEY");
-
-            $("#invested-eos").html(row.eos/10000 + " EOS");
-            if (eosPrice) {
-                var usdt = eosPrice * row.eos / 10000;
-                usdt = Math.floor(usdt*100) / 100;
-                $("#invested-usdt").html("≙ " + usdt + " USDT");
-            }
-            var rewards = (row.eos-row.pot) / 10000;
-            $("#rewards").html(rewards + " EOS");
-            if (eosPrice) {
-                $("#rewards-usdt").html("≙ "+ Math.floor(rewards*eosPrice*100)/100 +" USDT");
-            }
-            setTimeout(fetchRound, 1000)
-        });
-    }
-
-    function fetchUser() {
-        var account = localStorage.getItem('account');
-        var accountName = null;
-
-        if (account) {
-            accountName = JSON.parse(localStorage.getItem('account')).name;
-        }
-        else if (isTP) {
-            accountName = tpAccount;
-        }
-
-        if (accountName) {
-            var refUrl = "https://gameworldeos.github.io?ref=" + accountName;
-            if (refUrl !== $("#refUrl").html()) {
-                $("#refUrl").html(refUrl);
-            }
-
-            api.getTableRows(true, "gameworldcom", accountName, "player").then(function (data) {
-
-                if (data.rows.length >= 1) {
-                    var row = data.rows[0];
-                    $("#your-keys").html(row.key / 100);
-                    if (roundMask) {
-                        var scammed = Math.floor(row.key * roundMask / base - row.mask + row.pot_vault)/ 10000;
-                        if (roundRedMask !== null) {
-                            scammed += Math.floor((row.red * roundRedMask + row.blue * roundBlueMask)/base) / 10000;
-                        }
-                        $("#scammed").html(scammed + " EOS");
-                        var advice = row.aff_vault / 10000;
-                        $("#advice").html(advice + " EOS");
-                        var gains = advice + scammed;
-                        gains = Math.floor(gains*10000) / 10000;
-                        $(".gains").html(gains + " EOS");
-                        $("#cost").html(row.eos/10000+" EOS")
-                        if (eosPrice) {
-                            var usdt = Math.floor(eosPrice * gains * 100) / 100;
-                            $(".gains-usdt").html("≙ " + usdt + " USDT");
-                        }
-                    }
-                } else {
-                    $("#your-keys").html("0.00");
-                    $("#scammed").html("0.0000 EOS");
-                    $("#advice").html("0.0000 EOS");
-                    $(".gains").html("0.0000 EOS");
-                    $(".gains-usdt").html("≙ 0.00 USDT");
-                    $("#cost").html("0.0000 EOS");
-                }
-            })
-        }
-        setTimeout(fetchUser, 3000)
-    }
-
-    setTimeout(fetchRound, 800)
-    setTimeout(fetchUser, 800)
-
-    function doLoginSuccess(identity) {
-        var account = identity.accounts[0];
-        console.log(account)
-        localStorage.setItem('account', JSON.stringify(account));
-        $("#log-btn").html("Logout");
-        $("#refUrl").html("https://gameworldeos.github.io?ref="+account.name);
-        $(".scatter").hide();
-        return account;
-    }
-
-    function doLogoutSuccess() {
-        localStorage.removeItem('account');
-        $("#log-btn").html("Login With Scatter");
-        $("#your-keys").html("0.00");
-        $("#scammed").html("0.0000 EOS");
-        $("#advice").html("0.0000 EOS");
-        $(".gains").html("0.0000 EOS");
-        $(".gains-usdt").html("≙ 0.00 USDT");
-        $("#cost").html("0.0000 EOS");
-        $("#refUrl").html("https://gameworldeos.github.io?ref=eos_account_name");
-        $(".scatter").show();
-    }
-
-    function IsPC() {
-        var userAgentInfo = navigator.userAgent;
-        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
-        var flag = true;
-        for (var v = 0; v < Agents.length; v++) {
-            if (userAgentInfo.indexOf(Agents[v]) > 0) {
-                flag = false;
-                break;
-            }
-        }
-        return flag;
-    }
-
-    function convertToLocalTime(s) {
-        var timedate = new Date(s);
-        if (!IsPC()) {
-            return timedate;
-        }
-
-        var d = new Date();
-        var offset = d.getTimezoneOffset() / 60;
-
-        timedate.setTime(timedate.getTime()-offset*3600*1000);
-        return timedate;
-    }
-
-    function checkTime(i) {
-        if(i<10) { i="0"+i; } return i;
-    }
-
-    function displayTimeDelta(seconds) {
-        var hour = parseInt(seconds/60/60);
-        var minute = parseInt(seconds/60%60);
-        var second = parseInt(seconds%60);
-        hour = checkTime(hour);
-        minute = checkTime(minute);
-        second = checkTime(second);
-        return hour + ":" + minute + ":" + second;
-    }
-
-    function showTime() { 　
-        if (!startTime) {
-            setTimeout(showTime, 1000)
-            return
-        }
-
-        if (isEnded) {
-            return
-        }
-
-        if (!isStarted) {
-            $('#startedContainer').hide();
-            $('#toStartContainer').show();
-
-            $('#headtimer2').html(displayTimeDelta(parseInt(startTime.getTime() - new Date().getTime())/1000))
-            $('#headtimer3').html('('+startTime.Format('MM-dd hh:mm:ss') +')')
-            setTimeout(showTime, 1000)
-            return
-        }
-
-
-        $('#startedContainer').show();
-        $('#toStartContainer').hide();
-
-        if (endTime) {
-            var seconds = parseInt(endTime.getTime() - new Date().getTime())/1000;
-            if(seconds <= 0 && !isEnded) {
-                $("#headtimer").html("Your network may have problems!");
-                $("#boxtimer").html("Your network may have problems!");
-                return
-            }
-
-            var leftTime = displayTimeDelta(seconds);
-
-            $("#headtimer").html(leftTime);
-            $("#boxtimer").html(leftTime);
-        }
-        setTimeout(showTime, 1000)
-    }
-    showTime();
-});
-</script>
+<script src="js/yshi.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123061930-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];

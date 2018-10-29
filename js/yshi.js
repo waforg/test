@@ -133,7 +133,7 @@ $(function () {
                 if (eosPrice) {
                     $("#rewards-usdt").html("≙ " + Math.floor(rewards * eosPrice * 100) / 100 + " USDT");
                 }
-                setTimeout(app._fetchRound(), 3000);
+                setTimeout(app._fetchRound(), 10000);
             });
         },
         //获取用户信息
@@ -183,7 +183,7 @@ $(function () {
                     }
                 })
             }
-            setTimeout(app._fetchUser, 3000)
+            setTimeout(app._fetchUser, 10000)
         },
         _initEvent: function () {
             //scatter插件加载
@@ -198,7 +198,7 @@ $(function () {
                     Dialog.init("请先安装 Scatter!");
                     return;
                 }
-            }, 3000);
+            }, 10000);
 
             //监听选择的队伍
             $("#redTeam").click(function () {
